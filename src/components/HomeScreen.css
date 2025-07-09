@@ -1,0 +1,31 @@
+#home-screen {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.no-project-image {
+  height: 80px;
+  width: 80px;
+}
+
+.no-project-image > img {
+  width: 100%;
+  height: 100%;
+}
+
+#home-screen h2 {
+  font-weight: 700;
+}
+
+#home-screen button {
+  background-color: #444444;
+  transition: 0.4s;
+}
+
+#home-screen button:hover {
+  background-color: #666666;
+}

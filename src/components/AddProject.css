@@ -1,0 +1,39 @@
+#add-project {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.add-project-btn-container {
+  align-self: flex-end;
+}
+
+.add-project-save-btn {
+  background-color: #000;
+  color: #fff;
+}
+
+#add-project form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+#add-project form span {
+  display: flex;
+  flex-direction: column;
+}
+
+#add-project label {
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #444444;
+}
+
+#add-project input {
+  background-color: #ccc;
+}
+
+#add-project textarea {
+  background-color: #ccc;
+}

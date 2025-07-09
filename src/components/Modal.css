@@ -1,0 +1,47 @@
+#modal {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s ease-in;
+}
+
+#modal-dialog {
+  height: 10rem;
+  width: 20rem;
+  background-color: #fff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  animation: slideIn 1s;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(-100%);
+  }
+
+  to {
+    transform: translateY(0);
+  }
+}
+
+#modal button {
+  height: 2.5rem;
+  width: 6rem;
+  color: #000;
+  border: 1px solid #000;
+  text-align: center;
+  transition: 0.4s;
+}
+
+#modal button:hover {
+  color: red;
+  border: 1px solid red;
+}

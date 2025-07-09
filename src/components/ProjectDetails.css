@@ -1,0 +1,54 @@
+#project-details {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.project-details-top-container {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1.5px solid #666666;
+}
+
+.project-details-top-container h2,
+.project-details-bottom-container h2 {
+  font-weight: 700;
+}
+
+.project-details-top-container p,
+.project-details-top-container h2 {
+  margin-bottom: 0.9rem;
+}
+
+.project-details-bottom-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.project-details-bottom-container input {
+  height: 2rem;
+  width: 15rem;
+  background-color: #ccc;
+}
+
+.project-details-bottom-container ul {
+  background-color: #ccc;
+  padding: 0.8rem;
+}
+
+.project-details-bottom-container ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project-details-top-container button:hover,
+.project-details-bottom-container ul li button:hover {
+  color: red;
+}
+
+.project-details-bottom-container button:hover {
+  color: green;
+}

@@ -1,5 +1,6 @@
 {
-  "name": "refs-demo-project",
+  "name": "task-manager-project",
+  "homepage": "http://s1049166074.onlinehome.us/task-manager/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
